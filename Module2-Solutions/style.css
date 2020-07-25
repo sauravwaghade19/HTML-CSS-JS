@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f1dabf;
+}
+h1 {
+    margin: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 175%;
+}
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+p {
+    position: relative;
+    clear: right;
+    font-size: 20px;
+}
+div {
+    position: relative;
+    background-color: #C3CDE6;
+    border: 2px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.lan1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #2243B6;
+        
+}
+.lan2 {
+    float: right;
+    color: black;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #FE6F5E;
+        
+}
+.lan3 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #93CCEA;
+        
+}
+.content {
+    padding: 5px;
+    background-color: #C3CDE6;
+    color: black;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+}
+    
+.row {
+    width: 90%;
+}
+    
+/*-------------Desktop Devices-----------*/
+@media (min-width: 992px){
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+/*---------------Tablet Devices-----------*/
+@media (min-width: 768px) and (max-width: 991px){
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*-------------Mobile Devices----------------*/
+@media (min-width: 0px) and (max-width: 767px){
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
